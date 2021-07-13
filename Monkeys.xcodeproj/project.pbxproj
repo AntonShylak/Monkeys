@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CED34E0269DF8A600C06F97 /* JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CED34DF269DF8A600C06F97 /* JSON.json */; };
 		EDD4B1672682421600DAC358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4B1662682421600DAC358 /* AppDelegate.swift */; };
 		EDD4B1692682421600DAC358 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4B1682682421600DAC358 /* SceneDelegate.swift */; };
 		EDD4B16B2682421600DAC358 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4B16A2682421600DAC358 /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		EDD4B1732682421800DAC358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD4B1712682421800DAC358 /* LaunchScreen.storyboard */; };
 		EDD4B17E2682421800DAC358 /* MonkeysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4B17D2682421800DAC358 /* MonkeysTests.swift */; };
 		EDD4B1892682421800DAC358 /* MonkeysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4B1882682421800DAC358 /* MonkeysUITests.swift */; };
-		EDD4B1992682446E00DAC358 /* JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = EDD4B1982682446E00DAC358 /* JSON.json */; };
 		EDD4B19B268244FA00DAC358 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4B19A268244FA00DAC358 /* Parser.swift */; };
 		EDD4B19D2682453700DAC358 /* Monkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4B19C2682453700DAC358 /* Monkeys.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8CED34DF269DF8A600C06F97 /* JSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JSON.json; path = Monkeys/JSON.json; sourceTree = "<group>"; };
 		EDD4B1632682421600DAC358 /* Monkeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monkeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD4B1662682421600DAC358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDD4B1682682421600DAC358 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		EDD4B1842682421800DAC358 /* MonkeysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonkeysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD4B1882682421800DAC358 /* MonkeysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeysUITests.swift; sourceTree = "<group>"; };
 		EDD4B18A2682421800DAC358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDD4B1982682446E00DAC358 /* JSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JSON.json; path = ../RSSReeder/JSON.json; sourceTree = "<group>"; };
 		EDD4B19A268244FA00DAC358 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		EDD4B19C2682453700DAC358 /* Monkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monkeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		EDD4B15A2682421500DAC358 = {
 			isa = PBXGroup;
 			children = (
-				EDD4B1982682446E00DAC358 /* JSON.json */,
+				8CED34DF269DF8A600C06F97 /* JSON.json */,
 				EDD4B1652682421600DAC358 /* Monkeys */,
 				EDD4B17C2682421800DAC358 /* MonkeysTests */,
 				EDD4B1872682421800DAC358 /* MonkeysUITests */,
@@ -241,9 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD4B1732682421800DAC358 /* LaunchScreen.storyboard in Resources */,
+				8CED34E0269DF8A600C06F97 /* JSON.json in Resources */,
 				EDD4B1702682421800DAC358 /* Assets.xcassets in Resources */,
 				EDD4B16E2682421600DAC358 /* Main.storyboard in Resources */,
-				EDD4B1992682446E00DAC358 /* JSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -433,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
